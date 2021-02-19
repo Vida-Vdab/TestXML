@@ -4,7 +4,7 @@
 		targetNamespace="http://www.vdab.be/cursisten" elementFormDefault="qualified">
 	<simpleType name="Naam">
 		<restriction base="string">
-			<pattern value="\S+"/>
+			<pattern value="\S+\s*\S+\s*\S+"/>
 		</restriction>
 	</simpleType>
 	<simpleType name="EmailAdres">
